@@ -7,25 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2A4DE201DCE0E82008F68CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE1F1DCE0E82008F68CB /* AppDelegate.swift */; };
-		C2A4DE221DCE0E82008F68CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE211DCE0E82008F68CB /* ViewController.swift */; };
-		C2A4DE251DCE0E82008F68CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE231DCE0E82008F68CB /* Main.storyboard */; };
-		C2A4DE271DCE0E82008F68CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE261DCE0E82008F68CB /* Assets.xcassets */; };
-		C2A4DE2A1DCE0E82008F68CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE281DCE0E82008F68CB /* LaunchScreen.storyboard */; };
+		C26D40561DCE15C9005409B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C26D40551DCE15C9005409B6 /* Info.plist */; };
+		C26D40571DCE16CE005409B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE871DCE143D008F68CB /* AppDelegate.swift */; };
+		C2A4DE3F1DCE0EA6008F68CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE3E1DCE0EA6008F68CB /* Assets.xcassets */; };
+		C2A4DE421DCE0EA6008F68CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE401DCE0EA6008F68CB /* LaunchScreen.storyboard */; };
+		C2A4DE551DCE0EB9008F68CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE541DCE0EB9008F68CB /* Assets.xcassets */; };
+		C2A4DE581DCE0EB9008F68CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE561DCE0EB9008F68CB /* LaunchScreen.storyboard */; };
+		C2A4DE621DCE0FD6008F68CB /* TargetosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE611DCE0FD6008F68CB /* TargetosCollectionViewCell.swift */; };
+		C2A4DE631DCE0FD6008F68CB /* TargetosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE611DCE0FD6008F68CB /* TargetosCollectionViewCell.swift */; };
+		C2A4DE641DCE0FDC008F68CB /* TargetosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE5F1DCE0FA8008F68CB /* TargetosCollectionViewController.swift */; };
+		C2A4DE651DCE0FDC008F68CB /* TargetosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE5F1DCE0FA8008F68CB /* TargetosCollectionViewController.swift */; };
+		C2A4DE661DCE1016008F68CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE231DCE0E82008F68CB /* Main.storyboard */; };
+		C2A4DE671DCE1016008F68CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2A4DE231DCE0E82008F68CB /* Main.storyboard */; };
+		C2A4DE6A1DCE11B0008F68CB /* Targetos01CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE681DCE11B0008F68CB /* Targetos01CollectionViewController.swift */; };
+		C2A4DE6C1DCE1243008F68CB /* Targetos01CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE6B1DCE1243008F68CB /* Targetos01CollectionViewController.swift */; };
+		C2A4DE8B1DCE1449008F68CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A4DE8A1DCE1449008F68CB /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C26D40551DCE15C9005409B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Targetos/Info.plist; sourceTree = "<group>"; };
 		C2A4DE1C1DCE0E82008F68CB /* Targetos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Targetos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2A4DE1F1DCE0E82008F68CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2A4DE211DCE0E82008F68CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2A4DE241DCE0E82008F68CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2A4DE261DCE0E82008F68CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2A4DE291DCE0E82008F68CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C2A4DE2B1DCE0E82008F68CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A4DE351DCE0EA6008F68CB /* Targetos01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Targetos01.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A4DE3E1DCE0EA6008F68CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2A4DE411DCE0EA6008F68CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2A4DE431DCE0EA6008F68CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A4DE4B1DCE0EB9008F68CB /* Targetos02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Targetos02.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A4DE541DCE0EB9008F68CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2A4DE571DCE0EB9008F68CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2A4DE591DCE0EB9008F68CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2A4DE5F1DCE0FA8008F68CB /* TargetosCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetosCollectionViewController.swift; sourceTree = "<group>"; };
+		C2A4DE611DCE0FD6008F68CB /* TargetosCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TargetosCollectionViewCell.swift; sourceTree = "<group>"; };
+		C2A4DE681DCE11B0008F68CB /* Targetos01CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Targetos01CollectionViewController.swift; sourceTree = "<group>"; };
+		C2A4DE6B1DCE1243008F68CB /* Targetos01CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Targetos01CollectionViewController.swift; sourceTree = "<group>"; };
+		C2A4DE721DCE13A1008F68CB /* Targetos03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Targetos03.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A4DE871DCE143D008F68CB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2A4DE8A1DCE1449008F68CB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C2A4DE191DCE0E82008F68CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE321DCE0EA6008F68CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE481DCE0EB9008F68CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE6F1DCE13A1008F68CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +80,11 @@
 		C2A4DE131DCE0E82008F68CB = {
 			isa = PBXGroup;
 			children = (
-				C2A4DE1E1DCE0E82008F68CB /* Targetos */,
+				C26D40551DCE15C9005409B6 /* Info.plist */,
+				C2A4DE5E1DCE0EFC008F68CB /* Controller */,
+				C2A4DE5D1DCE0EBF008F68CB /* View */,
+				C2A4DE361DCE0EA6008F68CB /* Targetos01 */,
+				C2A4DE4C1DCE0EB9008F68CB /* Targetos02 */,
 				C2A4DE1D1DCE0E82008F68CB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,21 +93,52 @@
 			isa = PBXGroup;
 			children = (
 				C2A4DE1C1DCE0E82008F68CB /* Targetos.app */,
+				C2A4DE351DCE0EA6008F68CB /* Targetos01.app */,
+				C2A4DE4B1DCE0EB9008F68CB /* Targetos02.app */,
+				C2A4DE721DCE13A1008F68CB /* Targetos03.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2A4DE1E1DCE0E82008F68CB /* Targetos */ = {
+		C2A4DE361DCE0EA6008F68CB /* Targetos01 */ = {
 			isa = PBXGroup;
 			children = (
-				C2A4DE1F1DCE0E82008F68CB /* AppDelegate.swift */,
-				C2A4DE211DCE0E82008F68CB /* ViewController.swift */,
-				C2A4DE231DCE0E82008F68CB /* Main.storyboard */,
-				C2A4DE261DCE0E82008F68CB /* Assets.xcassets */,
-				C2A4DE281DCE0E82008F68CB /* LaunchScreen.storyboard */,
-				C2A4DE2B1DCE0E82008F68CB /* Info.plist */,
+				C2A4DE8A1DCE1449008F68CB /* AppDelegate.swift */,
+				C2A4DE3E1DCE0EA6008F68CB /* Assets.xcassets */,
+				C2A4DE401DCE0EA6008F68CB /* LaunchScreen.storyboard */,
+				C2A4DE431DCE0EA6008F68CB /* Info.plist */,
+				C2A4DE6B1DCE1243008F68CB /* Targetos01CollectionViewController.swift */,
 			);
-			path = Targetos;
+			path = Targetos01;
+			sourceTree = "<group>";
+		};
+		C2A4DE4C1DCE0EB9008F68CB /* Targetos02 */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4DE871DCE143D008F68CB /* AppDelegate.swift */,
+				C2A4DE541DCE0EB9008F68CB /* Assets.xcassets */,
+				C2A4DE561DCE0EB9008F68CB /* LaunchScreen.storyboard */,
+				C2A4DE591DCE0EB9008F68CB /* Info.plist */,
+				C2A4DE681DCE11B0008F68CB /* Targetos01CollectionViewController.swift */,
+			);
+			path = Targetos02;
+			sourceTree = "<group>";
+		};
+		C2A4DE5D1DCE0EBF008F68CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4DE231DCE0E82008F68CB /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C2A4DE5E1DCE0EFC008F68CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2A4DE5F1DCE0FA8008F68CB /* TargetosCollectionViewController.swift */,
+				C2A4DE611DCE0FD6008F68CB /* TargetosCollectionViewCell.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +161,57 @@
 			productReference = C2A4DE1C1DCE0E82008F68CB /* Targetos.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C2A4DE341DCE0EA6008F68CB /* Targetos01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A4DE441DCE0EA6008F68CB /* Build configuration list for PBXNativeTarget "Targetos01" */;
+			buildPhases = (
+				C2A4DE311DCE0EA6008F68CB /* Sources */,
+				C2A4DE321DCE0EA6008F68CB /* Frameworks */,
+				C2A4DE331DCE0EA6008F68CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Targetos01;
+			productName = Targetos01;
+			productReference = C2A4DE351DCE0EA6008F68CB /* Targetos01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A4DE4A1DCE0EB9008F68CB /* Targetos02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A4DE5A1DCE0EB9008F68CB /* Build configuration list for PBXNativeTarget "Targetos02" */;
+			buildPhases = (
+				C2A4DE471DCE0EB9008F68CB /* Sources */,
+				C2A4DE481DCE0EB9008F68CB /* Frameworks */,
+				C2A4DE491DCE0EB9008F68CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Targetos02;
+			productName = Targetos02;
+			productReference = C2A4DE4B1DCE0EB9008F68CB /* Targetos02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2A4DE711DCE13A1008F68CB /* Targetos03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2A4DE811DCE13A1008F68CB /* Build configuration list for PBXNativeTarget "Targetos03" */;
+			buildPhases = (
+				C2A4DE6E1DCE13A1008F68CB /* Sources */,
+				C2A4DE6F1DCE13A1008F68CB /* Frameworks */,
+				C2A4DE701DCE13A1008F68CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Targetos03;
+			productName = Targetos03;
+			productReference = C2A4DE721DCE13A1008F68CB /* Targetos03.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,6 +223,19 @@
 				ORGANIZATIONNAME = culik;
 				TargetAttributes = {
 					C2A4DE1B1DCE0E82008F68CB = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					C2A4DE341DCE0EA6008F68CB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C2A4DE4A1DCE0EB9008F68CB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C2A4DE711DCE13A1008F68CB = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -114,6 +255,9 @@
 			projectRoot = "";
 			targets = (
 				C2A4DE1B1DCE0E82008F68CB /* Targetos */,
+				C2A4DE341DCE0EA6008F68CB /* Targetos01 */,
+				C2A4DE4A1DCE0EB9008F68CB /* Targetos02 */,
+				C2A4DE711DCE13A1008F68CB /* Targetos03 */,
 			);
 		};
 /* End PBXProject section */
@@ -123,9 +267,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2A4DE2A1DCE0E82008F68CB /* LaunchScreen.storyboard in Resources */,
-				C2A4DE271DCE0E82008F68CB /* Assets.xcassets in Resources */,
-				C2A4DE251DCE0E82008F68CB /* Main.storyboard in Resources */,
+				C26D40561DCE15C9005409B6 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE331DCE0EA6008F68CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A4DE671DCE1016008F68CB /* Main.storyboard in Resources */,
+				C2A4DE421DCE0EA6008F68CB /* LaunchScreen.storyboard in Resources */,
+				C2A4DE3F1DCE0EA6008F68CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE491DCE0EB9008F68CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A4DE661DCE1016008F68CB /* Main.storyboard in Resources */,
+				C2A4DE581DCE0EB9008F68CB /* LaunchScreen.storyboard in Resources */,
+				C2A4DE551DCE0EB9008F68CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE701DCE13A1008F68CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +305,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2A4DE221DCE0E82008F68CB /* ViewController.swift in Sources */,
-				C2A4DE201DCE0E82008F68CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE311DCE0EA6008F68CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A4DE8B1DCE1449008F68CB /* AppDelegate.swift in Sources */,
+				C2A4DE6C1DCE1243008F68CB /* Targetos01CollectionViewController.swift in Sources */,
+				C2A4DE641DCE0FDC008F68CB /* TargetosCollectionViewController.swift in Sources */,
+				C2A4DE621DCE0FD6008F68CB /* TargetosCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE471DCE0EB9008F68CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26D40571DCE16CE005409B6 /* AppDelegate.swift in Sources */,
+				C2A4DE6A1DCE11B0008F68CB /* Targetos01CollectionViewController.swift in Sources */,
+				C2A4DE651DCE0FDC008F68CB /* TargetosCollectionViewController.swift in Sources */,
+				C2A4DE631DCE0FD6008F68CB /* TargetosCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4DE6E1DCE13A1008F68CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,12 +346,21 @@
 				C2A4DE241DCE0E82008F68CB /* Base */,
 			);
 			name = Main.storyboard;
+			path = Targetos;
 			sourceTree = "<group>";
 		};
-		C2A4DE281DCE0E82008F68CB /* LaunchScreen.storyboard */ = {
+		C2A4DE401DCE0EA6008F68CB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C2A4DE291DCE0E82008F68CB /* Base */,
+				C2A4DE411DCE0EA6008F68CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C2A4DE561DCE0EB9008F68CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2A4DE571DCE0EB9008F68CB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -260,10 +465,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Targetos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.culik.br.Targetos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,9 +479,82 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Targetos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.culik.br.Targetos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2A4DE451DCE0EA6008F68CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Targetos01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.culik.br.Targetos01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2A4DE461DCE0EA6008F68CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Targetos01/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.culik.br.Targetos01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2A4DE5B1DCE0EB9008F68CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Targetos02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.culik.br.Targetos02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2A4DE5C1DCE0EB9008F68CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Targetos02/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.culik.br.Targetos02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C2A4DE821DCE13A1008F68CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Targetos03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.culik.br.Targetos03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C2A4DE831DCE13A1008F68CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Targetos03/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.culik.br.Targetos03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -299,6 +579,34 @@
 				C2A4DE301DCE0E82008F68CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A4DE441DCE0EA6008F68CB /* Build configuration list for PBXNativeTarget "Targetos01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A4DE451DCE0EA6008F68CB /* Debug */,
+				C2A4DE461DCE0EA6008F68CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A4DE5A1DCE0EB9008F68CB /* Build configuration list for PBXNativeTarget "Targetos02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A4DE5B1DCE0EB9008F68CB /* Debug */,
+				C2A4DE5C1DCE0EB9008F68CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2A4DE811DCE13A1008F68CB /* Build configuration list for PBXNativeTarget "Targetos03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2A4DE821DCE13A1008F68CB /* Debug */,
+				C2A4DE831DCE13A1008F68CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

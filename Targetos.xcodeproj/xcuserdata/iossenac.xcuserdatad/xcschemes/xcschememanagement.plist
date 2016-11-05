@@ -6,13 +6,47 @@
 	<dict>
 		<key>Targetos.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Targetos01.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Targetos02.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Targetos03.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>C2A4DE1B1DCE0E82008F68CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2A4DE341DCE0EA6008F68CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2A4DE4A1DCE0EB9008F68CB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C2A4DE711DCE13A1008F68CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
