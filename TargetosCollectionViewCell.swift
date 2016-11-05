@@ -10,4 +10,5 @@ import UIKit
 
 class TargetosCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lblnome: UILabel!
+    @IBOutlet weak var lblnome2: UILabel!
 }

@@ -64,10 +64,19 @@ class TargetosCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! TargetosCollectionViewCell
-    
+      //  let cell1 = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! TargetosCollectionViewCell
         // Configure the cell
+        if indexPath.row % 2 == 0 {
         cell.lblnome.text = content[indexPath.row]
-    
+        let str:String!  = content[indexPath.row]+"B"
+        cell.lblnome2.text = str
+       }
+        else {
+            cell.lblnome.text = content[indexPath.row]+"B"
+            let str:String!  = content[indexPath.row]
+            cell.lblnome2.text = str
+
+        }
         return cell
     }
 
